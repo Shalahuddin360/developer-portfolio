@@ -136,7 +136,7 @@ main {
 .about-me-header {
 
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 .about-me-pera {
@@ -169,11 +169,145 @@ main {
     font-size: 20px;
     text-align: center;
     margin-top: 30px;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
 
 .skill-description {
     color: #757575;
     font-weight: 400;
     font-size: 16px;
+}
+
+/* description
+1.<section> resume-section =
+2.resume-section-title=
+3.**resume-container = resume-content
+4.*h2* resume-education-title=resume-title (my E and E)
+5resume =resume-item
+6resume-title=title
+7.resume-sub-title = sub-title
+8.resume-pera-description = description
+*/
+.resume-section {}
+
+.resume-section-title {
+    text-align: center;
+    margin-bottom: 113px;
+}
+
+.resume-container {
+    display: flex;
+    gap: 4px;
+}
+
+/* .my-education-title{
+
+}
+.my-experience-title{
+
+} */
+.my-title {
+    margin-bottom: 130px;
+}
+
+.resume {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume-title {
+    color: #474747;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.resume-sub-title {
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.resume-pera-description {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/* resume button styles  */
+
+.resume-button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 230px;
+    box-sizing: border-box;
+    margin-top:113px;
+}
+
+.contact .contact-left-title {
+    text-align: left;
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    margin-bottom: 20px;
+
+}
+
+.contact .contact-left-description {
+    color: #474747;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.contact input[type="text"],[type="email"],textarea {
+    margin-bottom: 34px;
+    border: 0;
+    width: 100%;
+    padding: 10px 30px;
+    border: 0;
+    box-sizing: border-box;
+    border-radius:10px;
+}
+
+.contact input[placeholder],textarea[placeholder] {
+    font-size: 1.2rem;
+}
+
+input {
+    height: 64px;
+}
+
+.contact a {
+    text-decoration: none;
+}
+
+.contact-right-title {
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    margin-bottom: 28px;
+}
+/* footer style start*/
+.bottom-container{
+    background: #FFF8F3;
+    text-align: center;
+    padding:10px;
+}
+.bottom-container p{
+    color: #FD6E0A;
+    margin-top:20px;
+
 }
